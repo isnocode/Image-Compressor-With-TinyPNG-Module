@@ -1,5 +1,5 @@
-# Image-Compressor-With-TinyPNG-Module
-Image Compressor With TinyPNG Module for PrestaShop will compress JPG and PNG images in your store, reduce your store's page size, make your store load much faster and save a lot of disk space.
+# TinyPNG-Image-Compressor-Module
+TinyPNG Image Compressor Module for PrestaShop will compress JPG and PNG images in your store, reduce your store's page size, make your store load much faster and save a lot of disk space.
 
 ** Installation for PrestaShop:
 1. On the modules page, click on "Add a new module" button.
