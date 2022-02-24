@@ -1,0 +1,342 @@
+/**
+ * @author    ELEGANTAL <info@elegantal.com>
+ * @copyright (c) 2022, ELEGANTAL <www.elegantal.com>
+ * @license   Proprietary License - It is forbidden to resell or redistribute copies of the module or modified copies of the module.
+ */
+
+.elegantalBootstrapWrapper {
+    position: relative;
+}
+
+.elegantal_ajax_loader {
+    display: none;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background: #999;
+    background: rgba(0,0,0,.5);
+    z-index: 99999999;
+}
+
+.elegantal_ajax_loader img {
+    position: absolute;
+    top: 45%;
+}
+
+.radio_button {
+    float: left !important;
+    margin: 0 25px 15px 0 !important;
+}
+
+textarea {
+    min-height: 180px;
+    resize: vertical !important;
+}
+
+.help-block {
+    clear: both !important;
+}
+
+.bootstrap select[multiple] {
+    width: auto !important;
+    height: auto !important;
+    min-width: 400px;
+    min-height: 120px;
+}
+
+.bootstrap .fixed-width-xl {
+    width: 250px !important;
+}
+
+.number_field {
+    max-width: 267px;
+}
+
+.elegantal_hidden {
+    display: none;
+}
+
+.elegantal_log_panel .label, .elegantal_resume_btn_group .btn {
+    display: inline-block;
+    min-width: 80px;
+    font-size: 10px;
+    line-height: 13px;
+    text-shadow: none;
+}
+
+.elegantal_resume_btn_group .btn {
+    padding: 1px 16px !important;
+}
+
+.elegantal_log_panel thead th,  .elegantal_log_panel tbody td {
+    text-align: center !important;
+}
+
+.elegantal_log_panel thead th:first-child,  .elegantal_log_panel tbody td:first-child {
+    text-align: left !important;
+}
+
+.elegantal_log_panel .btn-group .btn.dropdown-toggle {
+    min-width: 90px;
+    text-align: left;
+}
+
+.elegantal_log_panel .btn .caret {
+    border-top-color: #fff !important;
+    float: right;
+    margin-top: 6px;
+}
+
+.elegantal_history_table th, .elegantal_history_table td {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.elegantal_history_table th:first-child, .elegantal_history_table td:first-child {
+    text-align: left;
+}
+
+.elegantal_history_table tfoot td {
+    font-weight: bold;
+}
+
+.elegantal_history_table tfoot td:first-child {
+    text-align: center;
+}
+
+.elegantal_history_table tr td .label {
+    display: inline-block;
+    min-width: 90px;
+    font-size: 11px;
+    line-height: 16px;
+    text-shadow: none;
+}
+
+.elegantal_compress .row {
+    line-height: 30px;
+    border-bottom: 1px solid #eaeaea;
+    padding: 10px 10px 0 10px;
+}
+
+.elegantal_compress_num {
+    font-size: 20px;
+    line-height: 1;
+    padding: 0 5px;
+}
+@media (max-width: 992px) {
+    .elegantal_compress_num {
+        font-size: 14px;
+    }
+}
+
+.elegantal_compress_btn {
+    text-transform: uppercase;
+}
+
+.elegantal_images_size_saved {
+    color: #60ba68;
+}
+
+.elegantal_readme_modal ul li{
+    padding: 5px 0;
+    font-size: 12px;
+}
+
+.elegantal_compression_count {
+    display: block;
+    font-size: 14px;
+    padding: 10px 0 15px 0;
+}
+
+.elegantal_images_group {
+    min-width: 362px !important;
+    margin-bottom: 100px !important;
+}
+
+.elegantal_images_group a {
+    white-space: normal !important;
+    padding: 8px 10px !important;
+}
+
+.elegantal_images_group a span {
+    text-transform: uppercase;
+}
+
+.elegantal_images_group a small {
+    color: #555555;
+}
+
+.elegantal_images_group a:hover small {
+    color: #ffffff;
+}
+
+div .btn-group .btn.btn-success .caret {
+    border-top-color: #fff !important;
+}
+
+.elegantal_list_footer .btn-group.pull-right {
+    margin-right: 5px;
+}
+
+.elegantal_images_group.dropdown-menu>li>a:hover,
+.elegantal_list_footer .btn-default:hover {
+    background-color: #4eb357 !important;
+    border-color: #439a4a !important;
+}
+
+.elegantal_images_group.dropdown-menu>li>a:focus,
+.elegantal_images_group.dropdown-menu>li>a:active {
+    background-color: #72C279 !important;
+}
+
+.elegantal_list_footer {
+    height: auto !important;
+}
+
+.elegantal_list_footer>.row>div>.btn, .elegantal_list_footer>.row>div>.btn-group {
+    margin: 5px 5px 12px 0;
+}
+
+.elegantal_list_footer .btn-lg {
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+@media (max-width: 992px) {
+    .elegantal_list_footer .btn, .elegantal_list_footer .btn-group {
+        float: none !important;
+        display: inline-block !important;
+        width: 100%;
+        margin-bottom: 10px;
+    }
+    .elegantal_images_group {
+        min-width: auto !important;
+        max-width: 100%;
+        overflow: hidden;
+    }
+}
+
+.elegantal_buttons_row {
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+.elegantal_buttons_row>div>.btn, .elegantal_buttons_row>div>.btn-group {
+    display: inline-block;
+    margin: 0 5px 10px 0;
+}
+
+.elegantal_buttons_row>div>.btn, .elegantal_buttons_row>div>.btn-group>.btn {
+    padding: 10px 12px;
+}
+
+.elegantal_buttons_row .btn {
+    font-size: 10px !important;
+    text-transform: uppercase;
+}
+
+.elegantal_buttons_row .btn [class^="icon-"] {
+    display: block;
+    width: 30px;
+    height: 30px;
+    margin: 0 auto 10px auto;
+    font-size: 28px;
+    background: transparent;
+    background-size: 26px;
+    background-position: center;
+}
+
+.bootstrap textarea[name="cron_compress_custom_dirs"],
+.elegantalBootstrapWrapper textarea[name="cron_compress_custom_dirs"],
+.bootstrap textarea[name="exclude_paths"],
+.elegantalBootstrapWrapper textarea[name="exclude_paths"] {
+    height: 48px;
+    min-height: 0 !important;
+}
+
+.bootstrap textarea[name="api_key"],
+.elegantalBootstrapWrapper textarea[name="api_key"] {
+    height: 20px;
+    min-height: 0 !important;
+}
+
+.elegantal_bulk_actions {
+    margin-top: 6px;
+}
+
+.elegantal_select_checkbox {
+    line-height: 1 !important;
+    padding-top: 4px !important;
+    padding-left: 2px !important;
+    vertical-align: middle !important;
+}
+
+.elegantal_select_checkbox input {
+    vertical-align: middle !important;
+}
+
+/************ Compression Stats ************/
+.elegantal_image_compress_stats_row {
+    margin-bottom: 25px;
+}
+.elegantal_image_compress_stats_row>div {
+    padding: 0 12px !important;
+}
+.elegantal_image_compress_stats_border {
+    border-right: 1px solid rgba(120,130,140,.13);
+}
+.elegantal_image_compress_stats_row .elegantal_image_compress_stats_text {
+    color: #7e888e;
+    margin: 15px 0 10px 0;
+    text-transform: uppercase;
+    font-size: 0.95em;
+}
+.elegantal_image_compress_stats_row .elegantal_image_compress_stats_number {
+    font-size: 3em;
+    text-align: right;
+    line-height: 55px;
+}
+.elegantal_image_compress_stats_row .elegantal_image_compress_stats_number small {
+    position: absolute;
+    top: 22px;
+    right: 3px;
+    font-size: 13px;
+}
+.elegantal_image_compress_stats_row .progress {
+    -webkit-box-shadow: none!important;
+    background-color: rgba(120,130,140,.13);
+    box-shadow: none !important;
+    height: 3px;
+    border-radius: 0;
+    margin-bottom: 18px;
+    overflow: hidden;
+}
+.elegantal_image_compress_stats_row .text-danger {
+    color: #fb9678 !important;
+}
+.elegantal_image_compress_stats_row .progress-bar-danger {
+    background-color: #fb9678 !important;
+}
+.elegantal_image_compress_stats_row .text-info {
+    color: #01c0c8 !important;
+    position: relative;
+}
+.elegantal_image_compress_stats_row .progress-bar-info {
+    background-color: #01c0c8 !important;
+}
+.elegantal_image_compress_stats_row .text-primary {
+    color: #ab8ce4 !important;
+}
+.elegantal_image_compress_stats_row .progress-bar-primary {
+    background-color: #ab8ce4 !important;
+}
+.elegantal_image_compress_stats_row .text-success {
+    color: #00c292 !important;
+}
+.elegantal_image_compress_stats_row .progress-bar-success {
+    background-color: #00c292 !important;
+}
+/************ END Compression Stats ************/
